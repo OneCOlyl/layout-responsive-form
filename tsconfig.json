@@ -3,6 +3,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./src",
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -20,7 +21,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "lib": [
-      "ES2022",
+      "es2020",
       "dom"
     ]
   },

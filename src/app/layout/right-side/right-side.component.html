@@ -1,0 +1,8 @@
+<div class="right-side-container" [class.collapsed]="isCollapsed">
+  <button class="toggle-button" (click)="toggleSide()">
+    {{ isCollapsed ? '←' : '→' }}
+  </button>
+  <div class="content">
+    <span>Right side</span>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="layout-container">
+  <div class="left" [class.expanded]="isRightSideCollapsed" [class.collapsed]="!isRightSideCollapsed && isMobileView">
+    <app-left-side></app-left-side>
+  </div>
+  <div class="right" [class.collapsed]="isRightSideCollapsed" [class.expanded]="!isRightSideCollapsed && isMobileView">
+    <app-right-side (toggleSideEvent)="onToggleSide($event)"></app-right-side>
+  </div>
+</div>
